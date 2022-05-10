@@ -22,6 +22,7 @@ public class HelloWorld {
             public void actionPerformed(ActionEvent actionEvent) {
                 display.append(String.valueOf("Welcome To My Project\n"));
                 display.append(String.valueOf("Thank you for Visiting us"));
+                display.append(String.valueOf("Have a good Day..."));
             }
         });
         clearButton.addActionListener(new ActionListener() {
