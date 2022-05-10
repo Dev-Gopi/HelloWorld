@@ -21,7 +21,8 @@ public class HelloWorld {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
                 display.append(String.valueOf("Welcome To My Project\n"));
-                display.append(String.valueOf("Thank you for Visiting us"));
+                display.append(String.valueOf("If You Need Any Help Please call us.\n"));
+                display.append(String.valueOf("Thank you for Visiting us.\n"));
                 display.append(String.valueOf("Have a good Day..."));
             }
         });
